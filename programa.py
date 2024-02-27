@@ -1,7 +1,7 @@
 import pandas as pd
 
 # Ruta del archivo CSV
-ruta_archivo = "dataset.csv"
+ruta_archivo = "archive/dataset.csv"
 
 try:
     datos = pd.read_csv(ruta_archivo)
